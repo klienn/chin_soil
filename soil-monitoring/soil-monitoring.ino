@@ -217,7 +217,7 @@ void sendSensor() {
   tft.println(humidity);
   tft.print("Light = ");
   tft.println(lightIntensity);
-  tft.print("Tank Food Level = ");
+  tft.print("Water Level = ");
   tft.println(waterLevel);
   tft.print("Motion = ");
   tft.println(pirState ? "Detected    " : "Not Detected");
